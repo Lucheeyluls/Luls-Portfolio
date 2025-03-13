@@ -1,0 +1,102 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(248, 244, 246, 0.973);
+    color: rgb(21, 3, 39);
+}
+
+header{
+    background-color: rgb(22, 134, 165);
+    color: rgba(37, 31, 31, 0.906);
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    font-size: 18px;
+    background-image: url(/Imagesportfolio/images\ \(5\).jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+h1{
+    margin: 10px;
+}
+
+.about{
+    padding: 20px;
+    background: rgba(240, 176, 137, 0.24);
+    margin: 100px;
+    margin-top: 190px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgb(3, 92, 84);
+}
+.projects, .contact{
+    padding: 20px;
+    background: rgba(240, 176, 137, 0.24);
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgb(3, 92, 84);
+}
+
+.contact{
+    margin-left: 0;
+    margin-right: 0px;
+}
+
+.projects .project{
+    background: rgba(229, 103, 19, 0.42);
+    padding: 10px;
+    margin: 15px 5px;
+    border-left: 8px solid #519191;
+}
+
+a{
+    text-decoration: underline;
+    color: rgb(46, 41, 46);
+    font-weight: bold;
+    
+}
+
+a:hover{
+    color: rgba(0, 0, 255, 0.607);
+}
+
+.photos{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photos img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.photos img:hover{
+    transform: scale(1.7);
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background: rgba(66, 112, 136, 0.37);
+}
+
+button{
+    background-color: rgba(210, 105, 30, 0.712);
+}
+
+.hover:hover{
+    color: #081010;
+    background-color: rgb(234, 158, 8);
+}
