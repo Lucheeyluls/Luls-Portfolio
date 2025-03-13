@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../gpt"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "fresh start"
+	}
+}
